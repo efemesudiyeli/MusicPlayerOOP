@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.music-song {
+    font-weight: bold;
+}
+
+.card-img-top {
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: rgb(38, 57, 77) 0px 30px 50px -10px;
+    width: 30rem;
+
+}
+
+.times {
+    margin-top: -0.7rem;
+}
+
+/* CONTROLS */
+.controls {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+}
+
+.fa-solid {
+    font-size: 25px;
+    margin: 0 9px;
+    cursor: pointer;
+}
+
+.rounded-circle {
+    width: 2.7rem;
+}
+
+.list-group-item:hover {
+
+    cursor: pointer;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 20rem;
+
+}
+
+.list-group-item:hover .badge.bg-primary {
+
+    background-color: white !important;
+    color: #0d6efd;
+
+}
